@@ -1,0 +1,54 @@
+
+.register {
+	background-color: #f5f5f7;
+	box-sizing: border-box;
+	padding: 60px;
+}
+.all-content{
+	background-color: #fff;
+	height: 600px;
+	box-sizing: border-box;
+	padding: 50px 0 0 350px;
+}
+.all-content input{
+	width: 350px;
+	height: 40px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+.all-content input::placeholder{
+	color: #ccc;
+}
+.btn1{
+	height: 40px;
+	width: 40px;
+	border: 1px  solid #ccc;
+	background-color: #fff;
+	color: #cccccc;
+	border-right: 0;
+}
+.all-content .tels{
+	width: 309px;
+	height: 40px;
+}
+.btn2{
+	cursor: pointer;
+	width: 350px;
+	height: 40px;
+	border: none;
+	color: #fff;
+	background-color: #DD4A68;
+	margin-top: 20px;
+}
+.all-content .radio-web{
+	width: 10px;
+	height: 10px;
+}
+.all-content   a{
+	color: skyblue;
+}
+.account{
+	margin-top: 20px;
+}

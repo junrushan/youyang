@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>购物车</title>
+	
+	<!-- 引入公共样式  -->
+	<link rel="stylesheet" href="../css/normalize.css">
+	<!--引入字体图标-->
+	<link rel="stylesheet" href="../fonts/iconfont/iconfont.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<!-- 引入当前文件样式  -->
+	<link rel="stylesheet" href="../css/shopping-cart.css">
+	<!-- 1. 引入插件样式 -->
+	<link rel="stylesheet" href="../lib/plugings/css/slider.css">
+</head>
+<body>
+<!--首页头部-->
+<header>
+	<section class="bgc-cc">
+		<div id="header" class=" container clearfix">
+			<!--左边-->
+			<div class="fl">
+				<span>欢迎光临小店!!</span>
+				<span><a href="">请登录</a></span>
+				<span><a href="">免费注册</a></span>
+			</div>
+			<!--右边-->
+			<div class="fr">
+				<span><a href="">我的淘宝</a></span>
+				<span><a href=""> <i class="iconfont icon-tianmaochaoshigouwuche
+					"></i>购物车</a></span>
+				<span><a href=""><i class="iconfont icon-pinpai"></i> 收藏夹</a></span>
+				<span><a href=""><i class="iconfont icon-pinpai"></i> 手机版</a></span>
+				<span><a href=""><i class="iconfont icon-dianpu"></i> 商家支持</a></span>
+				<span><a href=""><i class="iconfont icon-fenlei"></i> 网站导航</a></span>
+			
+			</div>
+		</div>
+	</section>
+	
+	<!--logo 和商列表-->
+	<section id="categories" class="categories container logo-cate">
+		<div class="clearfix">
+			<!--logo-->
+			
+			<!--搜索框-->
+			<div class="search fr">
+				<label>
+					<input class="fl" type="text" placeholder="搜索花海小店 商品/品牌/店铺">
+				</label>
+				<button class="fr">搜索</button>
+			</div>
+			<div class="xiala">
+				<label for="address"> <span>配送至</span> </label><select name="" id="address">
+				<option value="">成都高新三环内</option>
+				<option value="">成都高新三环内</option>
+				<option value="">成都高新三环内</option>
+			</select>
+			</div>
+		</div>
+		<section class="han-clothing-list">
+			<!--			<ul class="mt-b30">-->
+			<!--				<li>-->
+			<!--					<a href="">汉服</a>-->
+			<!--				</li>-->
+			<!--				<li>-->
+			<!--					<a href="">家居</a>-->
+			<!--				</li>-->
+			<!--				<li>-->
+			<!--					<a href="">玩具</a>-->
+			<!--				</li>-->
+			<!--				<li>-->
+			<!--					<a href="">数码</a>-->
+			<!--				</li>-->
+			<!--				<li>-->
+			<!--					<a href="">图书</a>-->
+			<!--				</li>-->
+			<!--				<li>-->
+			<!--					<a href="">建材</a>-->
+			<!--				</li>-->
+			<!--				<li>-->
+			<!--					<a href="">汽车</a>-->
+			<!--				</li>-->
+			<!--				<li>-->
+			<!--					<a href="">户外</a>-->
+			<!--				</li>-->
+			<!--				<li>-->
+			<!--					<a href="">球类</a>-->
+			<!--				</li>-->
+			<!--				<li>-->
+			<!--					<a href="">医药</a>-->
+			<!--				</li>-->
+			<!--				<li>-->
+			<!--					<a href="">水果</a>-->
+			<!--				</li>-->
+			<!--				<li>-->
+			<!--					<a href="">海鲜</a>-->
+			<!--				</li>-->
+			<!--				<li>-->
+			<!--					<a href="">健身</a>-->
+			<!--				</li>-->
+			<!--				<li>-->
+			<!--					<a href="">艺术</a>-->
+			<!--				</li>-->
+			<!--				<li>-->
+			<!--					<a href="">理财</a>-->
+			<!--				</li>-->
+			<!--			</ul>-->
+		</section>
+	</section>
+</header>
+
+	<div class="header container">
+		<!-- 头部 -->
+		<ul class="list_header">
+			<li class="list_chk">
+				<!-- <input type="checkbox" id="selall">  -->
+				<div class="shop_info">
+					<!-- 单个店铺的全选 -->
+					<label>
+						<input type="checkbox" class="all_check ">
+					</label>
+				
+				</div>
+			</li>
+			<li class="list_con">商品信息</li>
+			<li class="list_info">商品参数</li>
+			<li class="list_price">单价</li>
+			<li class="list_amount">数量</li>
+			<li class="list_sum">金额</li>
+			<li class="list_op">操作</li>
+		</ul>
+		<!-- 第一个店铺 -->
+		<div class="cartbox">
+			<!-- 店铺信息 -->
+			
+			<!-- 订单主要区域 -->
+			<div class="order_content">
+				<ul class="order_lists mt10 clearfix">
+					<li class="list_chk">
+						<!-- 单个复选框 -->
+						<label>
+							<input type="checkbox" class="son_check">
+						</label>
+					</li>
+					<li class="list_con">
+						<div class="list_img fl">
+							<a href="javascript:">
+								<img src="../images/cart.jpg" alt="">
+							</a>
+						</div>
+						<div class="list_text fl">
+							<a href="#">汉尚华莲12周年店庆款昙华一梦汉服女明制刺绣长袄马面裙云肩现货
+								12周年店庆款，205万针重工刺绣</a>
+						</div>
+					</li>
+					<li class="list_info">
+						<p>规格：默认</p>
+						<p>尺寸：16*16*3(cm)</p>
+					</li>
+					<li class="list_price">
+						<!-- 单价 -->
+						<p class="price">￥<span>500</span></p>
+					</li>
+					<!-- 数量  -->
+					<li class="list_amount">
+						<div class="amount_box">
+							<!-- 减 -->
+							<a class="reduce fl">-</a>
+							<label>
+								<input type="number" value="1" class="sum fl">
+							</label>
+							<!--  加 -->
+							<a class="plus fl">+</a>
+						</div>
+					</li>
+					<li class="list_sum">
+						<!-- 小计结果 -->
+						<p class="sum_price">￥<span>500</span></p>
+					</li>
+					<li class="list_op">
+						<p class="del">
+							<a class="delbtn">移除商品</a>
+						</p>
+					</li>
+				</ul>
+				<ul class="order_lists mt10 clearfix">
+					<li class="list_chk">
+						<!-- 单个复选框 -->
+						<label>
+							<input type="checkbox" class="son_check">
+						</label>
+					</li>
+					<li class="list_con">
+						<div class="list_img fl">
+							<a href="javascript:">
+								<img src="../images/cart.jpg" alt="">
+							</a>
+						</div>
+						<div class="list_text fl">
+							<a href="#">汉尚华莲12周年店庆款昙华一梦汉服女明制刺绣长袄马面裙云肩现货
+								12周年店庆款，205万针重工刺绣</a>
+						</div>
+					</li>
+					<li class="list_info">
+						<p>规格：默认</p>
+						<p>尺寸：16*16*3(cm)</p>
+					</li>
+					<li class="list_price">
+						<p class="price">￥<span>500</span></p>
+					</li>
+					<li class="list_amount">
+						<div class="amount_box">
+							<!-- 减 -->
+							<a class="reduce fl">-</a>
+							<label>
+								<input type="text" value="1" class="sum fl">
+							</label>
+							<!--  加 -->
+							<a class="plus fl">+</a>
+						</div>
+					</li>
+					<li class="list_sum">
+						<!-- 小计结果 -->
+						<p class="sum_price">￥<span>500</span></p>
+					</li>
+					<li class="list_op">
+						<p class="del">
+							<a class="delbtn">移除商品</a>
+						</p>
+					</li>
+				</ul>
+				<ul class="order_lists mt10 clearfix">
+					<li class="list_chk">
+						<!-- 单个复选框 -->
+						<label>
+							<input type="checkbox" class="son_check">
+						</label>
+					</li>
+					<li class="list_con">
+						<div class="list_img fl">
+							<a href="javascript:">
+								<img src="../images/cart.jpg" alt="">
+							</a>
+						</div>
+						<div class="list_text fl">
+							<a href="#">汉尚华莲12周年店庆款昙华一梦汉服女明制刺绣长袄马面裙云肩现货
+								12周年店庆款，205万针重工刺绣</a>
+						</div>
+					</li>
+					<li class="list_info">
+						<p>规格：默认</p>
+						<p>尺寸：16*16*3(cm)</p>
+					</li>
+					<li class="list_price">
+						<p class="price">￥<span>500</span></p>
+					</li>
+					<li class="list_amount">
+						<div class="amount_box">
+							<!-- 减 -->
+							<a class="reduce fl">-</a>
+							<label>
+								<input type="text" value="1" class="sum fl">
+							</label>
+							<!--  加 -->
+							<a class="plus fl">+</a>
+						</div>
+					</li>
+					<li class="list_sum">
+						<!-- 小计结果 -->
+						<p class="sum_price">￥<span>500</span></p>
+					</li>
+					<li class="list_op">
+						<p class="del">
+							<a class="delbtn">移除商品</a>
+						</p>
+					</li>
+				</ul>
+				<ul class="order_lists mt10 clearfix">
+					<li class="list_chk">
+						<!-- 单个复选框 -->
+						<label>
+							<input type="checkbox" class="son_check">
+						</label>
+					</li>
+					<li class="list_con">
+						<div class="list_img fl">
+							<a href="javascript:">
+								<img src="../images/cart.jpg" alt="">
+							</a>
+						</div>
+						<div class="list_text fl">
+							<a href="#">汉尚华莲12周年店庆款昙华一梦汉服女明制刺绣长袄马面裙云肩现货
+								12周年店庆款，205万针重工刺绣</a>
+						</div>
+					</li>
+					<li class="list_info">
+						<p>规格：默认</p>
+						<p>尺寸：16*16*3(cm)</p>
+					</li>
+					<li class="list_price">
+						<!-- 单价 -->
+						<p class="price">￥<span>500</span></p>
+					</li>
+					<!-- 数量  -->
+					<li class="list_amount">
+						<div class="amount_box">
+							<!-- 减 -->
+							<a class="reduce fl">-</a>
+							<label>
+								<input type="number" value="1" class="sum fl">
+							</label>
+							<!--  加 -->
+							<a class="plus fl">+</a>
+						</div>
+					</li>
+					<li class="list_sum">
+						<!-- 小计结果 -->
+						<p class="sum_price">￥<span>500</span></p>
+					</li>
+					<li class="list_op">
+						<p class="del">
+							<a class="delbtn">移除商品</a>
+						</p>
+					</li>
+				</ul>
+				<ul class="order_lists mt10 clearfix">
+					<li class="list_chk">
+						<!-- 单个复选框 -->
+						<label>
+							<input type="checkbox" class="son_check">
+						</label>
+					</li>
+					<li class="list_con">
+						<div class="list_img fl">
+							<a href="javascript:">
+								<img src="../images/cart.jpg" alt="">
+							</a>
+						</div>
+						<div class="list_text fl">
+							<a href="#">汉尚华莲12周年店庆款昙华一梦汉服女明制刺绣长袄马面裙云肩现货
+								12周年店庆款，205万针重工刺绣</a>
+						</div>
+					</li>
+					<li class="list_info">
+						<p>规格：默认</p>
+						<p>尺寸：16*16*3(cm)</p>
+					</li>
+					<li class="list_price">
+						<p class="price">￥<span>500</span></p>
+					</li>
+					<li class="list_amount">
+						<div class="amount_box">
+							<!-- 减 -->
+							<a class="reduce fl">-</a>
+							<label>
+								<input type="text" value="1" class="sum fl">
+							</label>
+							<!--  加 -->
+							<a class="plus fl">+</a>
+						</div>
+					</li>
+					<li class="list_sum">
+						<!-- 小计结果 -->
+						<p class="sum_price">￥<span>500</span></p>
+					</li>
+					<li class="list_op">
+						<p class="del">
+							<a class="delbtn">移除商品</a>
+						</p>
+					</li>
+				</ul>
+				<ul class="order_lists mt10 clearfix">
+					<li class="list_chk">
+						<!-- 单个复选框 -->
+						<label>
+							<input type="checkbox" class="son_check">
+						</label>
+					</li>
+					<li class="list_con">
+						<div class="list_img fl">
+							<a href="javascript:">
+								<img src="../images/cart.jpg" alt="">
+							</a>
+						</div>
+						<div class="list_text fl">
+							<a href="#">汉尚华莲12周年店庆款昙华一梦汉服女明制刺绣长袄马面裙云肩现货
+								12周年店庆款，205万针重工刺绣</a>
+						</div>
+					</li>
+					<li class="list_info">
+						<p>规格：默认</p>
+						<p>尺寸：16*16*3(cm)</p>
+					</li>
+					<li class="list_price">
+						<p class="price">￥<span>500</span></p>
+					</li>
+					<li class="list_amount">
+						<div class="amount_box">
+							<!-- 减 -->
+							<a class="reduce fl">-</a>
+							<label>
+								<input type="text" value="1" class="sum fl">
+							</label>
+							<!--  加 -->
+							<a class="plus fl">+</a>
+						</div>
+					</li>
+					<li class="list_sum">
+						<!-- 小计结果 -->
+						<p class="sum_price">￥<span>500</span></p>
+					</li>
+					<li class="list_op">
+						<p class="del">
+							<a class="delbtn">移除商品</a>
+						</p>
+					</li>
+				</ul>
+			
+			</div>
+		</div>
+		<!-- 底部 -->
+		<div class="btmbox">
+			<!-- <input type="checkbox" class="all_check ml30">
+			  <span>全选</span>  -->
+			<a class="delallsel">删除选中商品</a>
+			<p class="fr">
+				<span>已选择<strong class="cf40 amount">0</strong>件商品</span>
+				<span>共计<strong class="cf40 totalprice">0.00</strong>元</span>
+				<a href="#">去结算</a>
+			</p>
+		
+		
+		</div>
+	</div>
+
+
+<!---->
+
+<!--网页尾部-->
+<footer>
+	<section class="foot container clearfix">
+		<div class="foot-head fl">
+			<i class="icon iconfont icon-zhengpinbaozhang fl"></i>
+			<p class="p1">品质保证</p>
+			<p class="p2">品质护航 购物无忧</p>
+		</div>
+		<div class="foot-head fl">
+			<i class="icon iconfont  icon-qitianwuliyoutuihuanhuo fl"></i>
+			<p class="p1">七天无理由退换货</p>
+			<p class="p2">为您提供售后无忧保障</p>
+		</div>
+		<div class="foot-head fl ">
+			<i class="icon iconfont icon-tesefuwu fl"></i>
+			<p class="p1">特色服务体验</p>
+			<p class="p2">为您呈现不一样的服务 </p>
+		</div>
+		<div class="foot-head fl">
+			<i class="icon iconfont icon-bang fl"></i>
+			<p class="p1">帮助中心</p>
+			<p class="p2">您的购物指南</p>
+		</div>
+	</section>
+	<section class="tail container clearfix">
+		<ul class="tail-list">
+			<li class="tail-h3"><h2>购物指南</h2></li>
+			<li class="tail-content"><a href="">免费注册</a></li>
+			<li class="tail-content"><a href="">开通支付宝</a></li>
+			<li class="tail-content"><a href="">支付宝充值</a></li>
+		</ul>
+		<ul class="tail-list">
+			<li class="tail-h3"><h2>购物保障</h2></li>
+			<li class="tail-content"><a href="">发票保障</a></li>
+			<li class="tail-content"><a href="">售后规则</a></li>
+			<li class="tail-content"><a href="">缺货赔付</a></li>
+		</ul>
+		<ul class="tail-list">
+			<li class="tail-h3"><h2>支付方式</h2></li>
+			<li class="tail-content"><a href="">快捷方式</a></li>
+			<li class="tail-content"><a href="">信用卡</a></li>
+			<li class="tail-content"><a href="">余额宝</a></li>
+			<li class="tail-content"><a href="">蚂蚁花呗</a></li>
+			<li class="tail-content"><a href="">货到付款</a></li>
+		</ul>
+		<ul class="tail-list">
+			<li class="tail-h3"><h2>商家服务</h2></li>
+			<li class="tail-content"><a href="">商城规则</a></li>
+			<li class="tail-content"><a href="">商家入驻</a></li>
+			<li class="tail-content"><a href="">商家中心</a></li>
+			<li class="tail-content"><a href="">商城智库</a></li>
+			<li class="tail-content"><a href="">物流服务</a></li>
+			<li class="tail-content"><a href="">各类评价</a></li>
+			<li class="tail-content"><a href="">运营服务</a></li>
+		</ul>
+		<ul class="tail-list">
+			<li class="tail-h3"><h2>手机商城</h2></li>
+			<li><img src="../images/mychat.png" class="tail-img" alt="你猜"></li>
+		</ul>
+	</section>
+	<section class="footer-others">
+		<div class="container">
+			<a href="" class="shop-infor">关于我们</a>
+			<a href="" class="shop-infor">商家服务大厅</a>
+			<a href="" class="shop-infor">开放平台</a>
+			<a href="" class="shop-infor">诚聘英才</a>
+			<a href="" class="shop-infor">联系我们</a>
+			<a href="" class="shop-infor">网站合作</a>
+			<a href="" class="shop-infor">法律声明</a>
+			<a href="" class="shop-infor">隐私权政策</a>
+			<a href="" class="shop-infor">知识产权</a>
+			<a href="" class="shop-infor">廉正举报</a>
+			<a href="" class="shop-infor">不当竞争举报</a>
+		</div>
+		<div class="container">
+			<a href="" class="shop-infor">阿里巴巴集团</a>|
+			<a href="" class="shop-infor">淘宝网</a>|
+			<a href="" class="shop-infor">天猫 </a>|
+			<a href="" class="shop-infor">聚划算</a>|
+			<a href="" class="shop-infor">阿里巴巴国际交易市场</a>|
+			<a href="" class="shop-infor">1688</a>|
+			<a href="" class="shop-infor">阿里妈妈</a>|
+			<a href="" class="shop-infor">飞猪</a>|
+			<a href="" class="shop-infor">阿里云计算</a>|
+			<a href="" class="shop-infor">AliOS</a>|
+			<a href="" class="shop-infor">万网</a>|
+			<a href="" class="shop-infor">高德</a>|
+			<a href="" class="shop-infor">UC</a>|
+			<a href="" class="shop-infor">友盟</a>|
+			<a href="" class="shop-infor">虾米</a>|
+			<a href="" class="shop-infor">钉钉</a>|
+			<a href="" class="shop-infor">支付宝</a>|
+			<a href="" class="shop-infor">阿里安全</a>|
+			<a href="" class="shop-infor">阿里嘿嘿</a>
+		</div>
+	</section>
+</footer>
+<!-- 1. 引入jQuery -->
+<script src="../lib/plugines1/js/jquery-1.10.2.min.js"></script>
+
+<!-- 4. 引入当前页面js文件 -->
+<script src="../js/shopping-cart.js "></script>
+</body>
+</html>

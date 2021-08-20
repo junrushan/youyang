@@ -1,0 +1,957 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>产品列表</title>
+	
+	<!-- 引入公共样式  -->
+	<link rel="stylesheet" href="../css/normalize.css">
+	<!--引入字体图标-->
+	<link rel="stylesheet" href="../fonts/iconfont/iconfont.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<!-- 引入当前文件样式  -->
+	<link rel="stylesheet" href="../css/product-details.css">
+	<!-- 1. 引入插件样式 -->
+	<link rel="stylesheet" href="../lib/plugings/css/slider.css">
+	<!--2.引入放大镜样式-->
+	<link rel="stylesheet" href="../lib/maginfier/magnifier.css">
+</head>
+<body>
+<!--首页头部-->
+<header>
+	<section class="bgc-cc">
+		<div id="header" class="  container clearfix">
+			<!--左边-->
+			<div class="fl">
+				<span>欢迎光临小店!!</span>
+				<span><a href="">请登录</a></span>
+				<span><a href="">免费注册</a></span>
+			</div>
+			<!--右边-->
+			<div class="fr">
+				<span><a href="">我的淘宝</a></span>
+				<span><a href=""> <i class="iconfont icon-tianmaochaoshigouwuche
+					"></i>购物车</a></span>
+				<span><a href=""><i class="iconfont icon-pinpai"></i> 收藏夹</a></span>
+				<span><a href=""><i class="iconfont icon-pinpai"></i> 手机版</a></span>
+				<span><a href=""><i class="iconfont icon-dianpu"></i> 商家支持</a></span>
+				<span><a href=""><i class="iconfont icon-fenlei"></i> 网站导航</a></span>
+			
+			</div>
+		</div>
+	</section>
+	
+	<!--logo 和商列表-->
+	<section id="categories" class="categories container logo-cate">
+		<div class="clearfix">
+			<!--logo-->
+			<div class="logos fl">
+				<h1>
+			<span>
+				<a href="" title="花海商城"></a>
+			</span>
+				</h1>
+			</div>
+			<!--搜索框-->
+			<div class="search fr">
+				<label>
+					<input class="fl" type="text" placeholder="搜索花海小店 商品/品牌/店铺">
+				</label>
+				<button class="fr">搜索</button>
+			</div>
+			</div>
+		
+	</section>
+</header>
+<!--店铺首页-->
+<section class="shop-bianner">
+	<div class="container sho-bianner1">
+		<img src="../images/prolis-banner.jpg" alt="">
+		<ul class="shop-list ">
+			<li>
+				<a href="">汉服</a>
+			</li>
+			<li>
+				<a href="">家居</a>
+			</li>
+			<li>
+				<a href="">玩具</a>
+			</li>
+			<li>
+				<a href="">数码</a>
+			</li>
+			<li>
+				<a href="">图书</a>
+			</li>
+			<li>
+				<a href="">建材</a>
+			</li>
+			<li>
+				<a href="">汽车</a>
+			</li>
+			<li>
+				<a href="">户外</a>
+			</li>
+			<li>
+				<a href="">球类</a>
+			</li>
+			<li>
+				<a href="">医药</a>
+			</li>
+			<li>
+				<a href="">水果</a>
+			</li>
+			<li>
+				<a href="">海鲜</a>
+			</li>
+			<li>
+				<a href="">健身</a>
+			</li>
+			<li>
+				<a href="">艺术</a>
+			</li>
+			<li>
+				<a href="">理财</a>
+			</li>
+		</ul>
+	</div>
+</section>
+<!--放大镜效果-->
+<section class="container magnifier-aera clearfix">
+	<!--放大镜左边-->
+	<div class="magnifier magnifier-left fl" id="magnifier1" style="width: 500px;">
+		<div class="magnifier-container" style="width: 500px; height: 500px;">
+			<div class="images-cover"><img src="../images/marnfire1.jpg" width="500" height="375" style="top:50%;margin-top:-187.5px" alt=""></div>
+			<!--当前图片显示容器-->
+			<div class="move-view" style="width: 100px; height: 100px; left: 401px; top: 270px; display: none;"></div>
+			<!--跟随鼠标移动的盒子-->
+		</div>
+		<div class="magnifier-assembly">
+			<div class="magnifier-btn">
+				<span class="magnifier-btn-left">&lt;</span>
+				<span class="magnifier-btn-right">&gt;</span>
+			</div>
+			<!--按钮组-->
+			<div class="magnifier-line">
+				<ul class="clearfix animation03">
+					<li class="active">
+						<div class="small-img">
+							<img src="../images/marnfire1.jpg">
+						</div>
+					</li>
+					<li>
+						<div class="small-img">
+							<img src="../images/marnfire2.jpg">
+						</div>
+					</li>
+					<li>
+						<div class="small-img">
+							<img src="../images/marnfire.jpg">
+						</div>
+					</li>
+					<li>
+						<div class="small-img">
+							<img src="../images/manrnfire4.jpg">
+						</div>
+					</li>
+					<li>
+						<div class="small-img">
+							<img src="../images/manrnfire3.jpg">
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!--缩略图-->
+		</div>
+		<div class="magnifier-view" style="width: 500px; height: 500px; display: none;"><img src="./放大镜效果_files/1.png" width="2500" height="1875" style="margin-left: -2005px; margin-top: -1037.5px;"></div>
+		<!--经过放大的图片显示容器-->
+	</div>
+	<!--内容右边-->
+	<div class="magnifier-right fl">
+		<p class="goods-name">汉尚华莲12周年店庆款昙华一梦汉服女明制刺绣长袄马面裙云肩现货</p>
+		<p class="goods-infor">12周年店庆款，205万针重工刺绣</p>
+		<p class="goods-price"> <span class="goodsname"> 价格</span>  <span class="goodpric">¥ 659.00-799.00</span></p>
+		<p class="goods-yunfei">
+			<span class="yunfei">运费</span>
+			<span class="diqu">四川 <i class="iconfont icon-fanhui4"></i> </span>
+		</p>
+		<p class="evaluate"><span class="good-l">
+			累计评价 <span class="goodred">99999</span>
+		</span>   丨 <span class="good-r">送小店积分 <span class="geshu">9999</span>起</span> 
+		</p>
+		<p class="goods-szie"> 尺码  
+			<span>XS</span> <span>S</span> <span>M</span> <span>L</span> <span>XL</span> <span>均码</span>
+		</p>
+		<p class="classification">
+			颜色分类
+			<span  class="active" style="background-image:url(../images/yans.jpg)"></span>
+			<span style="background-image:url(../images/yans2.jpg)"></span>
+			<span style="background-image:url(../images/yans3.jpg)"></span>
+			<span style="background-image:url(../images/yans3.jpg)"></span>
+		</p>
+		<p class="good-num"> 数量  <span class="good-num1" >1</span>
+			<span class="arrows1"><i class="iconfont icon-fanhui3"></i></span>
+			<span class="arrows"><i class="iconfont icon-fanhui4"></i></span>
+		</p>
+		<p class="purchase">
+			<span class="soon">立刻购买</span>
+			
+				<a href="./shopping-cart.html"><span class="shopping-cart"><i class="iconfont icon-gouwuchetianjia"></i> 加入购物车</span></a>
+				
+		</p>
+	</div>
+</section>
+
+<!--详情页-->
+<section class="particulars container">
+  <h2>
+	  <span class=" active-2">昙华一梦+内搭裙</span>
+	  <span>昙华一梦+归羽绣花鞋</span>
+  </h2>
+	<div class="particulars-cont particulars-cont2" >
+		<div class="particulars-info">
+		<div>
+			<img src="../images/marnfire1.jpg" alt="">
+		</div>
+		<input type="checkbox"><span>价格&yen;999-&yen;999</span>
+		
+		<div class="set-meal">
+			套餐价格&yen;699-&yen;799
+			<p> 查看套餐 </p>
+		</div>
+	</div>
+		<div class="particulars-info">
+			<div>
+				<img src="../images/marnfire1.jpg" alt="">
+			</div>
+			<input type="checkbox"><span>价格&yen;999-&yen;999</span>
+		</div>
+	</div>
+	<div class="particulars-cont " >
+		<div class="particulars-info">
+			<div>
+				<img src="../images/marnfire1.jpg" alt="">
+			</div>
+			<input type="checkbox"><span>价格&yen;999-&yen;999</span>
+			
+			<div class="set-meal">
+				套餐价格&yen;699-&yen;799
+				<p> 查看套餐 </p>
+			</div>
+		</div>
+		<div class="particulars-info">
+			<div>
+				<img src="../images/marnfire1.jpg" alt="">
+			</div>
+			<input type="checkbox"><span>价格&yen;999-&yen;999</span>
+		</div>
+		<div class="particulars-info">
+			<div>
+				<img src="../images/marnfire1.jpg" alt="">
+			</div>
+			<input type="checkbox"><span>价格&yen;999-&yen;999</span>
+		</div>
+	</div>
+</section>
+<!--商品详细信息-->
+<section class="detailed-information container clearfix">
+	<div class="information-left fl">
+<!--	店铺介绍	-->
+		<div class="store">
+			<p class="store-name">xxxx旗舰店 <i class="iconfont icon-jinrudianpu"></i></p>
+			<p class="store-infor"><span class="store-num">5</span>  xx五年店</p>
+			<p class="store-status"><span>描述</span><span>服务</span><span>物流</span></p>
+			<p class="store-score"><span>4.9 <i class="iconfont icon-shangfan"></i></span><span>4.9 <i class="iconfont icon-shangfan"></i></span><span>4.9 <i class="iconfont icon-shangfan"></i></span></p>
+			<p class="store-into"> <span>进店逛逛</span> <span>收藏店铺</span></p>
+		</div>
+		<!--本店搜索-->
+		<div class="store-search">
+			<h2>本店搜索</h2>
+			<div class="crux">
+				<p>
+					<label>
+					关键字
+					<input class="crux-1" type="text" placeholder="汉服">
+				</label>
+				</p>
+				<p>
+					<label>
+						价格
+						<input class="crux-2" type="text">--<input class="crux-2" type="text">
+					</label>
+				</p>
+				<p><button>搜索</button></p>
+			</div>
+		</div>
+		<!--全部匪类-->
+		<div class="all-classifications">
+			<h2>全部分类</h2>
+		</div>
+		<ul>
+			<li class="infor-title">
+				查看所有宝贝 <i class="iconfont icon-sanjiao1"></i>
+				<ul class="infor">
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+				</ul>
+		
+			</li>
+			<li class="infor-title">
+				查看所有宝贝 <i class="iconfont icon-sanjiao1"></i>
+				<ul class="infor">
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+				</ul>
+			
+			</li>
+			<li class="infor-title">
+			查看所有宝贝 <i class="iconfont icon-sanjiao1"></i>
+			<ul class="infor">
+				<li>衣服</li>
+				<li>衣服</li>
+				<li>衣服</li>
+				<li>衣服</li>
+				<li>衣服</li>
+				<li>衣服</li>
+				<li>衣服</li>
+				<li>衣服</li>
+				<li>衣服</li>
+			</ul>
+		
+		</li>
+			<li class="infor-title">
+				查看所有宝贝 <i class="iconfont icon-sanjiao1"></i>
+				<ul class="infor">
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+				</ul>
+			
+			</li>
+			<li class="infor-title">
+				查看所有宝贝 <i class="iconfont icon-sanjiao1"></i>
+				<ul class="infor">
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+				</ul>
+			
+			</li>
+			<li class="infor-title">
+				查看所有宝贝 <i class="iconfont icon-sanjiao1"></i>
+				<ul class="infor">
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+				</ul>
+			
+			</li>
+			<li class="infor-title">
+				查看所有宝贝 <i class="iconfont icon-sanjiao1"></i>
+				<ul class="infor">
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+				</ul>
+			
+			</li>
+			<li class="infor-title">
+				查看所有宝贝 <i class="iconfont icon-sanjiao1"></i>
+				<ul class="infor">
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+				</ul>
+			
+			</li>
+			<li class="infor-title">
+				查看所有宝贝 <i class="iconfont icon-sanjiao1"></i>
+				<ul class="infor">
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+				</ul>
+			
+			</li>
+			<li class="infor-title">
+				查看所有宝贝 <i class="iconfont icon-sanjiao1"></i>
+				<ul class="infor">
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+				</ul>
+			
+			</li>
+			<li class="infor-title">
+				查看所有宝贝 <i class="iconfont icon-sanjiao1"></i>
+				<ul class="infor">
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+					<li>衣服</li>
+				</ul>
+			
+			</li>
+			
+			
+		</ul>
+	</div>
+	<!--右边-->
+	<div class="information-right fr">
+		<!--商品介绍-->
+		<div class="products-introduction">
+			<!--头-->
+			<h2>
+				<span class="pro-infor pro-infor2 active-3">商品详情</span>
+				<span class="pro-infor  pro-infor3">累计评价</span>
+			</h2>
+			<!--图片部分-->
+			<div class="pro-neirong por-im  ">
+				<div class="shop-introduction">
+				<p>品牌: 汉尚华莲</p>
+				<h3> 产品参数</h3>
+				<p>
+					品牌: 汉尚华莲面料: 涤纶尺码: XS S M L XL 均码 <br>
+					颜色分类: 马面裙1件-现货 云肩1件-现货 长袄1件-现货 <br>
+					长袄1件-货号: HMQ033成分含量: 96%及以上 <br>
+					上市年份季节: 2020年秋季销售渠道类型: 商场同款(线上线下都销售)
+				</p>
+				</div>
+				<div class="read-infor">
+					购买前请仔细阅读详情
+				</div>
+				<div class="pr-img">
+					<img src="../images/a1.jpg" alt="">
+					<img src="../images/a2.jpg" alt="">
+					<img src="../images/a3.jpg" alt="">
+					<img src="../images/a4.jpg" alt="">
+					<img src="../images/a5.jpg" alt="">
+					<img src="../images/a6.jpg" alt="">
+					<img src="../images/a7.jpg" alt="">
+					<img src="../images/a8.jpg" alt="">
+					<img src="../images/a9.jpg" alt="">
+					<img src="../images/a10.jpg" alt="">
+					<img src="../images/a11.jpg" alt="">
+					<img src="../images/a12.jpg" alt="">
+					<img src="../images/a13.jpg" alt="">
+					<img src="../images/a14.jpg" alt="">
+					<img src="../images/a15.jpg" alt="">
+					<img src="../images/a16.jpg" alt="">
+					<img src="../images/a17.jpg" alt="">
+					<img src="../images/a18.jpg" alt="">
+				</div>
+			</div>
+			<!--评价部分-->
+			<div class="pro-neirong s-pinlun">
+				<p class="pinjia">商品评价</p>
+				<div class="clearfix">
+					<div class="fl">
+						<p class="degree1">好评度</p>
+						<p class="degree">100%</p>
+					</div>
+						<span>水份充足(20)</span>
+						<span>味道一流(7)</span>
+						<span>口感极佳(5)</span>
+						<span>新鲜十足(3)</span>
+						<span>份量十足(2)</span>
+						<span>个大质优(2)</span>
+						<span>蔬果新鲜(2)</span>
+						<span>果味醇香(1)</span>
+						<span>量大料足(1)</span>
+						<span>时尚大方(1)</span>
+						<span>做工精良(1)</span>
+				</div>
+				<div class="all-top">
+					<span class="pin-top">全部评价(5万+)</span>
+					<span class="pin-top">晒图(500)</span>
+					<span class="pin-top">视频晒单(100+)</span>
+					<span class="pin-top">追评(600+)</span>
+					<span class="pin-top">好评(2.2万+)</span>
+					<span class="pin-top">中评(1100+) 差</span>
+					<span class="pin-top">评(1000+)</span>
+				</div>
+				<div class="user-pinlun  clearfix">
+					<div class="user-img fl">
+						<img src="../images/头像.webp" alt=""><a href="">**杰瑞*Jerry</a>
+						<p class="gold">金牌会员</p>
+						<p>来自iPhone客户端 <i class="iconfont icon-shumashouji"></i></p>
+					</div>
+					<div class="user-text fl">
+						<p><i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+						</p>
+						垫子超值，没啥好说的。就是快递包装简陋……严重影响购物体验啊 <br>
+						耐用度：有待验证，选择的是网格款，感觉很奈斯 <br>
+						舒适度：手感柔软，做工细致，背面胶垫，防滑颗粒好评 <br>
+						操作难度：上手容易，一铺一展开整 <br>
+						外观颜值：简约不简单，黑红搭配，沉稳大气 <br>
+						响应速度：杠杠的，杠杠的 <br>
+					</div>
+				</div>
+				<div class="user-pinlun  clearfix">
+					<div class="user-img fl">
+						<img src="../images/头像.webp" alt=""><a href="">**杰瑞*Jerry</a>
+						<p class="gold">金牌会员</p>
+						<p>来自iPhone客户端 <i class="iconfont icon-shumashouji"></i></p>
+					</div>
+					<div class="user-text fl">
+						<p><i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+						</p>
+						垫子超值，没啥好说的。就是快递包装简陋……严重影响购物体验啊 <br>
+						耐用度：有待验证，选择的是网格款，感觉很奈斯 <br>
+						舒适度：手感柔软，做工细致，背面胶垫，防滑颗粒好评 <br>
+						操作难度：上手容易，一铺一展开整 <br>
+						外观颜值：简约不简单，黑红搭配，沉稳大气 <br>
+						响应速度：杠杠的，杠杠的 <br>
+					</div>
+				</div>
+				<div class="user-pinlun  clearfix">
+					<div class="user-img fl">
+						<img src="../images/头像.webp" alt=""><a href="">**杰瑞*Jerry</a>
+						<p class="gold">金牌会员</p>
+						<p>来自iPhone客户端 <i class="iconfont icon-shumashouji"></i></p>
+					</div>
+					<div class="user-text fl">
+						<p><i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+						</p>
+						垫子超值，没啥好说的。就是快递包装简陋……严重影响购物体验啊 <br>
+						耐用度：有待验证，选择的是网格款，感觉很奈斯 <br>
+						舒适度：手感柔软，做工细致，背面胶垫，防滑颗粒好评 <br>
+						操作难度：上手容易，一铺一展开整 <br>
+						外观颜值：简约不简单，黑红搭配，沉稳大气 <br>
+						响应速度：杠杠的，杠杠的 <br>
+					</div>
+				</div>
+				<div class="user-pinlun  clearfix">
+					<div class="user-img fl">
+						<img src="../images/头像.webp" alt=""><a href="">**杰瑞*Jerry</a>
+						<p class="gold">金牌会员</p>
+						<p>来自iPhone客户端 <i class="iconfont icon-shumashouji"></i></p>
+					</div>
+					<div class="user-text fl">
+						<p><i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+						</p>
+						垫子超值，没啥好说的。就是快递包装简陋……严重影响购物体验啊 <br>
+						耐用度：有待验证，选择的是网格款，感觉很奈斯 <br>
+						舒适度：手感柔软，做工细致，背面胶垫，防滑颗粒好评 <br>
+						操作难度：上手容易，一铺一展开整 <br>
+						外观颜值：简约不简单，黑红搭配，沉稳大气 <br>
+						响应速度：杠杠的，杠杠的 <br>
+					</div>
+				</div>
+				<div class="user-pinlun  clearfix">
+					<div class="user-img fl">
+						<img src="../images/头像.webp" alt=""><a href="">**杰瑞*Jerry</a>
+						<p class="gold">金牌会员</p>
+						<p>来自iPhone客户端 <i class="iconfont icon-shumashouji"></i></p>
+					</div>
+					<div class="user-text fl">
+						<p><i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+						</p>
+						垫子超值，没啥好说的。就是快递包装简陋……严重影响购物体验啊 <br>
+						耐用度：有待验证，选择的是网格款，感觉很奈斯 <br>
+						舒适度：手感柔软，做工细致，背面胶垫，防滑颗粒好评 <br>
+						操作难度：上手容易，一铺一展开整 <br>
+						外观颜值：简约不简单，黑红搭配，沉稳大气 <br>
+						响应速度：杠杠的，杠杠的 <br>
+					</div>
+				</div>
+				<div class="user-pinlun  clearfix">
+					<div class="user-img fl">
+						<img src="../images/头像.webp" alt=""><a href="">**杰瑞*Jerry</a>
+						<p class="gold">金牌会员</p>
+						<p>来自iPhone客户端 <i class="iconfont icon-shumashouji"></i></p>
+					</div>
+					<div class="user-text fl">
+						<p><i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+						</p>
+						垫子超值，没啥好说的。就是快递包装简陋……严重影响购物体验啊 <br>
+						耐用度：有待验证，选择的是网格款，感觉很奈斯 <br>
+						舒适度：手感柔软，做工细致，背面胶垫，防滑颗粒好评 <br>
+						操作难度：上手容易，一铺一展开整 <br>
+						外观颜值：简约不简单，黑红搭配，沉稳大气 <br>
+						响应速度：杠杠的，杠杠的 <br>
+					</div>
+				</div>
+				<div class="user-pinlun  clearfix">
+					<div class="user-img fl">
+						<img src="../images/头像.webp" alt=""><a href="">**杰瑞*Jerry</a>
+						<p class="gold">金牌会员</p>
+						<p>来自iPhone客户端 <i class="iconfont icon-shumashouji"></i></p>
+					</div>
+					<div class="user-text fl">
+						<p><i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+						</p>
+						垫子超值，没啥好说的。就是快递包装简陋……严重影响购物体验啊 <br>
+						耐用度：有待验证，选择的是网格款，感觉很奈斯 <br>
+						舒适度：手感柔软，做工细致，背面胶垫，防滑颗粒好评 <br>
+						操作难度：上手容易，一铺一展开整 <br>
+						外观颜值：简约不简单，黑红搭配，沉稳大气 <br>
+						响应速度：杠杠的，杠杠的 <br>
+					</div>
+				</div>
+				<div class="user-pinlun  clearfix">
+					<div class="user-img fl">
+						<img src="../images/头像.webp" alt=""><a href="">**杰瑞*Jerry</a>
+						<p class="gold">金牌会员</p>
+						<p>来自iPhone客户端 <i class="iconfont icon-shumashouji"></i></p>
+					</div>
+					<div class="user-text fl">
+						<p><i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+						</p>
+						垫子超值，没啥好说的。就是快递包装简陋……严重影响购物体验啊 <br>
+						耐用度：有待验证，选择的是网格款，感觉很奈斯 <br>
+						舒适度：手感柔软，做工细致，背面胶垫，防滑颗粒好评 <br>
+						操作难度：上手容易，一铺一展开整 <br>
+						外观颜值：简约不简单，黑红搭配，沉稳大气 <br>
+						响应速度：杠杠的，杠杠的 <br>
+					</div>
+				</div>
+				<div class="user-pinlun  clearfix">
+					<div class="user-img fl">
+						<img src="../images/头像.webp" alt=""><a href="">**杰瑞*Jerry</a>
+						<p class="gold">金牌会员</p>
+						<p>来自iPhone客户端 <i class="iconfont icon-shumashouji"></i></p>
+					</div>
+					<div class="user-text fl">
+						<p><i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+						</p>
+						垫子超值，没啥好说的。就是快递包装简陋……严重影响购物体验啊 <br>
+						耐用度：有待验证，选择的是网格款，感觉很奈斯 <br>
+						舒适度：手感柔软，做工细致，背面胶垫，防滑颗粒好评 <br>
+						操作难度：上手容易，一铺一展开整 <br>
+						外观颜值：简约不简单，黑红搭配，沉稳大气 <br>
+						响应速度：杠杠的，杠杠的 <br>
+					</div>
+				</div>
+				<div class="user-pinlun  clearfix">
+					<div class="user-img fl">
+						<img src="../images/头像.webp" alt=""><a href="">**杰瑞*Jerry</a>
+						<p class="gold">金牌会员</p>
+						<p>来自iPhone客户端 <i class="iconfont icon-shumashouji"></i></p>
+					</div>
+					<div class="user-text fl">
+						<p><i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+						</p>
+						垫子超值，没啥好说的。就是快递包装简陋……严重影响购物体验啊 <br>
+						耐用度：有待验证，选择的是网格款，感觉很奈斯 <br>
+						舒适度：手感柔软，做工细致，背面胶垫，防滑颗粒好评 <br>
+						操作难度：上手容易，一铺一展开整 <br>
+						外观颜值：简约不简单，黑红搭配，沉稳大气 <br>
+						响应速度：杠杠的，杠杠的 <br>
+					</div>
+				</div>
+				<div class="user-pinlun  clearfix">
+					<div class="user-img fl">
+						<img src="../images/头像.webp" alt=""><a href="">**杰瑞*Jerry</a>
+						<p class="gold">金牌会员</p>
+						<p>来自iPhone客户端 <i class="iconfont icon-shumashouji"></i></p>
+					</div>
+					<div class="user-text fl">
+						<p><i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+						</p>
+						垫子超值，没啥好说的。就是快递包装简陋……严重影响购物体验啊 <br>
+						耐用度：有待验证，选择的是网格款，感觉很奈斯 <br>
+						舒适度：手感柔软，做工细致，背面胶垫，防滑颗粒好评 <br>
+						操作难度：上手容易，一铺一展开整 <br>
+						外观颜值：简约不简单，黑红搭配，沉稳大气 <br>
+						响应速度：杠杠的，杠杠的 <br>
+					</div>
+				</div>
+				<div class="user-pinlun  clearfix">
+					<div class="user-img fl">
+						<img src="../images/头像.webp" alt=""><a href="">**杰瑞*Jerry</a>
+						<p class="gold">金牌会员</p>
+						<p>来自iPhone客户端 <i class="iconfont icon-shumashouji"></i></p>
+					</div>
+					<div class="user-text fl">
+						<p><i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+							<i class="iconfont icon-shoucangxuanzhong"></i>
+						</p>
+						垫子超值，没啥好说的。就是快递包装简陋……严重影响购物体验啊 <br>
+						耐用度：有待验证，选择的是网格款，感觉很奈斯 <br>
+						舒适度：手感柔软，做工细致，背面胶垫，防滑颗粒好评 <br>
+						操作难度：上手容易，一铺一展开整 <br>
+						外观颜值：简约不简单，黑红搭配，沉稳大气 <br>
+						响应速度：杠杠的，杠杠的 <br>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--看了又看-->
+<section class="watch-and-see">
+	<div class="see-top">----看了又看----</div>
+	<div style="overflow: hidden;height: 900px">
+		<ul class="see-li1">
+			<li>
+				<a href=""><img src="../images/see1.jpg" alt=""> </a>
+				<p>&yen;999</p>
+			</li>
+			<li>
+				<a href=""><img src="../images/see2.jpg" alt=""> </a>
+				<p>&yen;999</p>
+			</li>
+			<li>
+				<a href=""><img src="../images/see3.jpg" alt=""> </a>
+				<p>&yen;999</p>
+			</li>
+			<li>
+				<a href=""><img src="../images/see4.jpg" alt=""> </a>
+				<p>&yen;999</p>
+			</li>
+			<li>
+				<a href=""><img src="../images/see5.jpg" alt=""> </a>
+				<p>&yen;999</p>
+			</li>
+		</ul>
+		<ul class="see-li">
+			<li>
+			<a href=""><img src="../images/see6.jpg" alt=""> </a>
+			<p>&yen;999</p>
+			</li>
+			<li>
+				<a href=""><img src="../images/see7.jpg" alt=""> </a>
+				<p>&yen;999</p>
+			</li>
+			<li>
+				<a href=""><img src="../images/see8.jpg" alt=""> </a>
+				<p>&yen;999</p>
+			</li>
+			<li>
+				<a href=""><img src="../images/see9.jpg" alt=""> </a>
+				<p>&yen;999</p>
+			</li>
+			<li>
+				<a href=""><img src="../images/see10.jpg" alt=""> </a>
+				<p>&yen;999</p>
+			</li>
+		</ul>
+	</div>
+	
+	<div class="arrowhead">
+		<span class="arrowhead-top"><i class="iconfont icon-fangxiang3"></i></span>
+		<span class="arrowhead-bottom"> <i class="iconfont icon-fangxiang4"> </i> </span>
+	</div>
+
+</section>
+<!--网页尾部-->
+<footer >
+	<section class="foot container clearfix">
+		<div class="foot-head fl">
+			<i class="icon iconfont icon-zhengpinbaozhang fl"></i>
+			<p class="p1">品质保证</p>
+			<p class="p2">品质护航 购物无忧</p>
+		</div>
+		<div class="foot-head fl">
+			<i class="icon iconfont  icon-qitianwuliyoutuihuanhuo fl"></i>
+			<p class="p1">七天无理由退换货</p>
+			<p class="p2">为您提供售后无忧保障</p>
+		</div >
+		<div class="foot-head fl ">
+			<i class="icon iconfont icon-tesefuwu fl"></i>
+			<p class="p1">特色服务体验</p>
+			<p class="p2">为您呈现不一样的服务 </p>
+		</div>
+		<div class="foot-head fl">
+			<i class="icon iconfont icon-bang fl"></i>
+			<p class="p1">帮助中心</p>
+			<p class="p2">您的购物指南</p>
+		</div>
+	</section>
+	<section class="tail container clearfix">
+		<ul class="tail-list">
+			<li class="tail-h3"> <h2>购物指南</h2></li>
+			<li class="tail-content"><a href="">免费注册</a></li>
+			<li class="tail-content"><a href="">开通支付宝</a></li>
+			<li class="tail-content"><a href="">支付宝充值</a></li>
+		</ul>
+		<ul class="tail-list">
+			<li class="tail-h3"> <h2>购物保障</h2></li>
+			<li class="tail-content"><a href="">发票保障</a></li>
+			<li class="tail-content"><a href="">售后规则</a></li>
+			<li class="tail-content"><a href="">缺货赔付</a></li>
+		</ul>
+		<ul class="tail-list">
+			<li class="tail-h3"> <h2>支付方式</h2></li>
+			<li class="tail-content"><a href="">快捷方式</a></li>
+			<li class="tail-content"><a href="">信用卡</a></li>
+			<li class="tail-content"><a href="">余额宝</a></li>
+			<li class="tail-content"><a href="">蚂蚁花呗</a></li>
+			<li class="tail-content"><a href="">货到付款</a></li>
+		</ul>
+		<ul class="tail-list">
+			<li class="tail-h3"> <h2>商家服务</h2></li>
+			<li class="tail-content"><a href="">商城规则</a></li>
+			<li class="tail-content"><a href="">商家入驻</a></li>
+			<li class="tail-content"><a href="">商家中心</a></li>
+			<li class="tail-content"><a href="">商城智库</a></li>
+			<li class="tail-content"><a href="">物流服务</a></li>
+			<li class="tail-content"><a href="">各类评价</a></li>
+			<li class="tail-content"><a href="">运营服务</a></li>
+		</ul>
+		<ul class="tail-list">
+			<li class="tail-h3"> <h2>手机商城</h2></li>
+			<li ><img src="../images/mychat.png" class="tail-img" alt="你猜"></li>
+		</ul>
+	</section>
+	<section class="footer-others">
+		<div class="container">
+			<a href="" class="shop-infor" >关于我们</a>
+			<a href="" class="shop-infor" >商家服务大厅</a>
+			<a href="" class="shop-infor" >开放平台</a>
+			<a href="" class="shop-infor" >诚聘英才</a>
+			<a href="" class="shop-infor" >联系我们</a>
+			<a href="" class="shop-infor" >网站合作</a>
+			<a href="" class="shop-infor" >法律声明</a>
+			<a href="" class="shop-infor" >隐私权政策</a>
+			<a href="" class="shop-infor" >知识产权</a>
+			<a href="" class="shop-infor" >廉正举报</a>
+			<a href="" class="shop-infor" >不当竞争举报</a>
+		</div>
+		<div class="container">
+			<a href="" class="shop-infor" >阿里巴巴集团</a>|
+			<a href="" class="shop-infor" >淘宝网</a>|
+			<a href="" class="shop-infor" >天猫 </a>|
+			<a href="" class="shop-infor" >聚划算</a>|
+			<a href="" class="shop-infor" >阿里巴巴国际交易市场</a>|
+			<a href="" class="shop-infor" >1688</a>|
+			<a href="" class="shop-infor" >阿里妈妈</a>|
+			<a href="" class="shop-infor" >飞猪</a>|
+			<a href="" class="shop-infor" >阿里云计算</a>|
+			<a href="" class="shop-infor" >AliOS</a>|
+			<a href="" class="shop-infor" >万网</a>|
+			<a href="" class="shop-infor" >高德</a>|
+			<a href="" class="shop-infor" >UC</a>|
+			<a href="" class="shop-infor" >友盟</a>|
+			<a href="" class="shop-infor" >虾米</a>|
+			<a href="" class="shop-infor" >钉钉</a>|
+			<a href="" class="shop-infor" >支付宝</a>|
+			<a href="" class="shop-infor" >阿里安全</a>|
+			<a href="" class="shop-infor" >阿里嘿嘿</a>
+		</div>
+	</section>
+</footer>
+<!-- 1. 引入jQuery -->
+<script src="../lib/plugings/lib/jquery.min.js"></script>
+
+<!-- 2. 引入轮播插件 -->
+<script src="../lib/plugings/lib/jquery.slidebox.js"></script>
+<!--引入放大镜插件-->
+<script src="../lib/maginfier/magnifier.js"></script>
+<script src="../lib/plugines1/js/slider.js"></script>
+<!-- 4. 引入当前页面js文件 -->
+<script src="../js/product-details.js"></script>
+</body>
+</html>

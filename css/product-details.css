@@ -1,0 +1,509 @@
+.shop-bianner{
+	height: 150px;
+	
+	background:url('../images/prolis-banner1.jpg') no-repeat  center;
+}
+/*店铺首页*/
+.shop-bianner .shop-list li{
+	display: inline-block;
+	line-height: 30px;
+	margin-left: 30px;
+}
+.shop-bianner .shop-list li a{
+	color: white;
+}
+.shop-bianner .shop-list li a:hover{
+	color: #cccccc;
+}
+/*清除放大镜插件 边距*/
+.magnifier-aera .magnifier-left{
+	margin-top: 50px;
+	margin-left: 0;
+}
+/*右边内容*/
+.magnifier-aera .magnifier-right{
+	width: 600px;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+.magnifier-right .goods-name{
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+	line-height: 30px;
+}
+.magnifier-right .goods-infor{
+	color: red;
+	line-height: 25px;
+}
+.magnifier-right .goods-price .goodsname{
+	margin-left: 20px;
+	font-size: 18px;
+	color: #1f1d1d;
+	font-weight: normal;
+}
+.magnifier-right .goods-price{
+	background-color: #e0dfdf;
+	font-size: 24px;
+	font-weight: bold;
+	color: red;
+	line-height: 50px;
+	margin-top: 20px;
+}
+.magnifier-right .goods-price .goodpric{
+	margin-left: 100px;
+}
+
+.goods-yunfei{
+	line-height: 60px;
+	border-bottom: 1px dashed #cccccc;
+}
+.yunfei{
+	color: #ccc;
+}
+.diqu{
+	color: #000;
+	margin-left: 30px;
+}
+.evaluate{
+	line-height: 50px;
+	border-bottom: 1px dashed #cccccc;
+}
+.goodred{
+	color: red;
+}
+.geshu{
+	color: #55a532;
+}
+.good-l{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.good-r{
+	margin-left: 50px;
+}
+.goods-szie{
+	margin-top: 30px;
+	color: #aea6a6;
+}
+.goods-szie span{
+	display: inline-block;
+	line-height: 38px;
+	width: 40px;
+	border: 1px solid #b8b7bd;
+	text-align: center;
+	margin-left: 10px;
+}
+.goods-szie span:hover{
+	border: 1px solid red;
+}
+.classification{
+	line-height: 60px;
+	margin-top: 30px;
+	
+}
+.classification span{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #b8b7bd;
+	margin-left: 40px;
+}
+span.active{
+	border: 1px solid red;
+}
+.good-num .good-num1{
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	border: 1px solid #b8b7bd;
+	margin-left: 68px;
+	line-height: 50px;
+	text-align: center;
+}
+.good-num span{
+	display: inline-block;
+	width: 48px;
+	height: 20px;
+	border: 1px solid #b8b7bd;
+	margin-left: 30px;
+	line-height: 26px;
+	text-align: center;
+	
+}
+.good-num{
+	position: relative;
+}
+.arrows1{
+	position: absolute;
+	top: 0;
+	
+}
+.arrows{
+	position: absolute;
+	bottom: 0;
+}
+.purchase{
+	margin-top: 70px;
+}
+.purchase span{
+	display: inline-block;
+	width: 200px;
+	margin-left: 40px;
+	
+}
+.purchase .soon{
+	color: red;
+	background-color: #ffeded;
+	border: 1px solid red;
+	line-height: 48px;
+	text-align: center;
+}
+
+.purchase .shopping-cart{
+	background-color: #ff0036;
+	color: white;
+	line-height: 48px;
+	text-align: center;
+}
+.magnifier-aera{
+	border-right:2px solid #b8b7bd;
+	padding-bottom: 100px;
+}
+/*商品详情*/
+/* 商品头部 */
+.detailed-information{
+	margin-top: 30px;
+}
+.particulars h2 span{
+	display: inline-block;
+	width: 220px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 18px;
+	cursor: pointer;
+}
+.particulars .active-2{
+	color: #ff0036;
+	border-top: 2px solid #ff0036	;
+}
+
+.particulars{
+	
+	height: 340px;
+	border:1px solid #b8b7bd;
+	box-sizing: border-box;
+	
+}
+.particulars img	{
+	height: 150px;
+}
+/*商品信息*/
+.particulars-info{
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 30px;
+	width: 130px;
+	position: relative;
+}
+.particulars span{
+	margin-left: 20px;
+	text-indent: 2em;
+}
+.set-meal{
+	color: #ff0036;
+	font-size: 25px;
+	font-weight: bold;
+	position: absolute;
+	left: 800px;
+	top: 0;
+}
+.set-meal p{
+	width: 140px;
+	height: 34px;
+	border: 1px solid red;
+	line-height: 34px;
+	color: red;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+	cursor: pointer	;
+}
+.particulars-cont{
+	display: none;
+}
+.particulars-cont2{
+	display: block;
+}
+/*商品详细信息*/
+/*商品左边*/
+
+.information-left{
+	width: 240px;
+	border:1px solid #b8b7bd;
+	
+}
+.all-classifications h2{
+	font-size: 20px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	overflow:hidden;
+	border-bottom: 1px solid #b8b7bd;
+	border-top: 1px solid #b8b7bd;
+}
+.information-left  .infor-title{
+	margin-right: 50px;
+	box-sizing: border-box;
+	padding-left: 20px;
+	color: #820000;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+
+
+.infor-title .infor{
+	color: #2f2c2c;
+	font-weight: normal;
+	font-size: 14px;
+}
+.store-name{
+	background-color: #fafafa;
+	line-height: 60px;
+	text-align: center;
+	border-bottom: 1px solid #b8b7bd;
+}
+.store-infor{
+	margin:15px 0 15px 40px;
+	color: #cccccc;
+	line-height: 22px;
+	
+	
+}
+.store-num{
+	display: inline-block;
+	width: 22px;
+	line-height: 22px;
+	text-align: center;
+	color: orange;
+	background-color: #f04343;
+	margin-right: 15px;
+}
+.store-status, .store-score{
+	margin-left: 40px;
+	margin-bottom: 10px;
+}
+.store-status span{
+	color: #999999;
+	letter-spacing: 10px;
+}
+.store-score span{
+	color: #ff0036;
+	margin-left: 5px;
+}
+.store-into span{
+	display: inline-block;
+	width: 80px;
+	height: 32px;
+	color: white;
+	background-color: #333333;
+	border-bottom: 1px solid #b8b7bd;
+	margin: 20px 0 25px 20px;
+	text-align: center;
+	line-height: 32px;
+	cursor: pointer;
+}
+.store-into span:last-child{
+	color: #333333;
+	background-color: #f5f5f5;
+}
+.store-search h2{
+	font-size: 18px;
+	padding-left: 15px;
+	box-sizing: border-box;
+	font-weight: normal;
+	border-top: 1px solid #b8b7bd;
+	border-bottom: 1px solid #b8b7bd;
+}
+.crux p{
+	margin: 20px 0 20px 30px;
+}
+.crux-1 {
+	width: 120px;
+	height: 32px;
+	border: 1px solid #b8b7bd;
+	padding-left: 5px;
+	box-sizing: border-box;
+	
+}
+
+.crux-2{
+	width: 40px;
+	height: 28px;
+	border: 1px solid #b8b7bd;
+	text-align: center;
+	line-height: 28px;
+	margin-left: 15px;
+}
+.crux button{
+	width: 90px;
+	height: 30px;
+	background-color: #6d6d6d;
+	color: #fff;
+	border: none;
+	margin-left: 45px;
+	cursor: pointer;
+}
+/*商品右边*/
+.information-right{
+	width: 940px;
+	
+}
+  /*头*/
+/*激活样式*/
+.active-3{
+	border-top: 6px solid #ff0036;
+}
+.products-introduction h2, .shop-introduction{
+	border: 1px solid #b8b7bd;
+	box-sizing: border-box;
+	padding-left: 25px;
+}
+
+.pro-infor{
+	display: inline-block;
+	height: 60px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 60px;
+	margin-left: 15px;
+}
+.shop-introduction{
+	border-top: none;
+	padding-top: 30px;
+}
+.shop-introduction h3{
+	margin: 20px 0;
+}
+.shop-introduction p:last-child{
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+.read-infor{
+	color: #af0a08;
+	font-size: 26px;
+	text-align: center;
+	line-height: 200px;
+}
+.pr-img{
+	margin-left: 40px;
+}
+.s-pinlun .pinjia{
+	background-color: #f0ecec;
+	margin-top: 25px;
+	margin-bottom: 30px;
+	line-height: 35px;
+	padding-left: 35px;
+	font-size: 18px;
+}
+.degree1{
+	margin-left: 25px;
+}
+.degree{
+	font-size: 40px;
+	font-weight: bold;
+	color: #ff0036;
+	line-height: 50px;
+}
+.s-pinlun span{
+	border: 1px solid #b8b7bd;
+	margin-left: 20px;
+	line-height: 30px;
+	text-align: center;
+}
+.s-pinlun span:hover{
+	cursor: pointer;
+	border: 1px solid #000;
+}
+.s-pinlun .all-top{
+	background-color: #f0ecec;
+	margin-top: 35px;
+	margin-bottom: 30px;
+	line-height: 35px;
+	padding-left: 35px;
+	font-size: 18px;
+}
+.s-pinlun .pin-top{
+	border: none;
+	margin-left: 10px;
+	line-height: 30px;
+	text-align: center;
+}
+.s-pinlun .pin-top:hover{
+	cursor: pointer;
+	border: none;
+	color: #ff0036;
+}
+.user-pinlun{
+	margin-top: 20px;
+}
+.user-img img{
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.user-img .gold{
+	margin-top: 8px;
+	font-size: 20px;
+	color: goldenrod;
+}
+.user-text{
+	margin-left: 30px;
+	line-height: 25px;
+}
+.see-top{
+	text-align: center;
+	line-height: 25px;
+}
+.watch-and-see .see-li1{
+	height: 450px;
+	margin-bottom: 450px;
+	
+}
+.watch-and-see .see-li1{
+	height: 450px;
+	
+}
+
+.watch-and-see{
+	position: absolute;
+	top: 440px;
+	left: 50%;
+	width: 200px;
+	height: 990px;
+	margin-left: 650px;
+	
+}
+.watch-and-see li{
+	position: relative;
+	box-sizing: border-box;
+	margin: 20px 15px 20px 20px;
+}
+.watch-and-see  p{
+	position: absolute;
+	bottom: 0;
+	width: 160px;
+	text-align: center;
+	background-color: rgba(255,255,255,.4);
+}
+.arrowhead span{
+	margin-left: 45px;
+	cursor: pointer;
+	
+}
+.arrowhead {
+	position: absolute;
+	bottom: -15px;
+}

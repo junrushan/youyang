@@ -1,0 +1,110 @@
+/*banner图*/
+.pro-banner {
+	height: 300px;
+	background: url("../images/product.jpg") no-repeat center center ;
+}
+/* 女装专区*/
+.han-clothing h2{
+	font-size: 25px;
+	color: #000000;
+	
+}
+.girl-clothing .girl-clothing-li {
+	display: inline-block;
+	margin-right: 50px;
+	height: 380px;
+	margin-top: 40px;
+	cursor: pointer;
+}
+.han-clothing h2{
+	margin-top: 20px;
+}
+.han-clothing h2 .s-cont{
+	font-size: 18px;
+	color: #000000;
+}
+.han-clothing .active{
+	color: #DD4A68;
+}
+.han-clothing  .girl-clothing img{
+	width: 246px;
+}
+.girl-clothing-li .clothing-infor{
+	box-sizing: border-box;
+	width: 246px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.girl-clothing-li .clothing-infor-price .infor-price{
+	color: red;
+	font-size: 20px;
+}
+.girl-clothing-li .clothing-infor-price .infor-price1{
+	color: #666666;
+	font-size: 16px;
+	text-decoration: line-through;
+}
+.girl-clothing-li p{
+	margin-top: 20px;
+}
+
+.han-clothing .girl-clothing{
+	display: block ;
+}
+.girl-clothing .on{
+	
+	display: none;
+}
+.han-clothing .prefecture{
+	margin-left: 850px;
+}
+.han-clothing  .prefecture1{
+	margin-left:827px;
+}
+.shuffling-options .girl-clothing-li img{
+	width: 200px !important;
+	height: 150px !important;
+}
+.shuffling-options .girl-clothing-li{
+	float: left;
+	box-sizing: border-box;
+	padding-left: 80px;
+}
+.shuffling-options .girl-clothing-li:nth-child(4)
+,.shuffling-options .girl-clothing-li:nth-child(5),
+.shuffling-options .girl-clothing-li:nth-child(6){
+	margin-top: 155px;
+}
+.recommend-lunbo{
+	font-size: 25px;
+	font-weight: bold;
+	box-sizing: border-box;
+	margin: 50px 0;
+}
+.recommend-lunbo .choiceness{
+	float: right;
+	margin-right: 40px;
+	cursor: pointer;
+}
+.shuffling-options .pptbox{
+	display: none;
+	height: 600px !important;
+}
+.shuffling-options .oon{
+	display: block;
+	
+}
+.active1{
+	color: #DD4A68;
+}
+
+
+
+
+
+
+
+
