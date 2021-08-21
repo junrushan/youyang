@@ -62,7 +62,7 @@ $('.re-btn').click(function () {
 		$(this).closest('.pwd-val').css('border','1px solid red')
 	}else {
 		//用户名和密码都正确, 然后跳转页面
-		location.href = 'https://www.jd.com'
+		location.href = '../index.html'
 		
 		
 	}
